@@ -41,13 +41,15 @@ conda list scikit-learn
 conda list hvplot
 ```
 
-At the beginning of the *etf_analyzer.ipynb* file, the technologies are calling in with this code:
+At the beginning of the *crypto_investments.ipynb* file, the technologies are calling in with this code:
 
 ```
-import numpy as np
 import pandas as pd
 import hvplot.pandas
-import sqlalchemy
+from path import Path
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
 ```
 
 ---
